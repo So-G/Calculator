@@ -3,6 +3,9 @@ const operator = prompt ("what is  the operator?");
 const secondValue = prompt ("what is the second value?");
 
 
-console.log(firstValue);
-console.log(operator);
-console.log(secondValue);
+if(operator === "+"){
+console.log(parseInt(firstValue) + parseInt(secondValue));
+}
+else {
+    console.log(parseInt(firstValue) - parseInt(secondValue));
+}
